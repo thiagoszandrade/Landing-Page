@@ -1,0 +1,135 @@
+@charset "UFT-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+* a {
+    color: white;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to right, #130D1E, #34154E);
+    color: white;
+    position: relative;
+}
+
+.button {
+    background: #bd85fc1a;
+    border: 1px solid #BC85FC;
+    border-radius: 50px;
+    margin: 0px 20px;
+    padding: 10px 30px;
+}
+
+thead {
+    position: relative;
+}
+
+#home {
+    background-color: #5445a7;
+    display: inline-flex;
+    width: 100%;
+    padding: 20px 0px;
+    transform: translate(50%);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#home a {
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#home a:hover {
+    background-color: #4b1c7296;
+    transition: .5s;
+}
+
+#inicio {
+    text-align: center;
+}
+
+#inicio h1 {
+    font-size: 80px;
+    padding-top: 60px;
+}
+
+#inicio .describe {
+    color: gray;
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    line-height: 1.2em;
+    padding-top: 30px;
+}
+
+#inicio #linguage {
+    display: inline-flex;
+    padding: 40px 0px;
+    
+}
+
+#inicio #linguage p:hover {
+    background-color: #bd85fc46;
+    transition: .5s;
+}
+
+#inicio #inicio-button {
+    padding-top: 20px;
+}
+
+#inicio #inicio-button a {
+    border: 1px solid #BC85FC;
+    border-radius: 17px;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 15px;
+    margin: 0px 15px;
+}
+
+#inicio #inicio-button #trabalho {
+    background-image: linear-gradient(to right, #b17cee, #6f5cdb);
+}
+
+#inicio #inicio-button #trabalho:hover {
+    background-image: linear-gradient(to right, #9065c2, #5445a7);
+    box-shadow: 0px 5px 10px #b17cee44;
+    transition: .5s;
+}
+
+#inicio #inicio-button #econtato {
+    background-color: #130D1E;
+}
+
+#inicio #inicio-button #econtato:hover {
+    background-color: #bd85fc1a;
+    box-shadow: 0px 5px 10px #b17cee44;
+    transition: .5s;
+}
+
+#sobre {
+
+}
+
+#sobre #sobre-mim {
+    text-align: center;
+    padding-top: 150px;
+}
+
+#sobre #sobre-mim .button {
+    display: inline-block;
+}
+
+#sobre #sobre-mim h1 {
+    font-size: 50px;
+    padding-top: 20px;
+}
