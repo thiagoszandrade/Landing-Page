@@ -28,19 +28,26 @@ body {
     padding: 10px 30px;
 }
 
-thead {
-    position: relative;
-}
-
-#home {
-    background-color: #5445a7;
-    display: inline-flex;
-    width: 100%;
-    padding: 20px 0px;
-    transform: translate(50%);
+header {
     position: fixed;
     top: 0px;
     left: 0px;
+    width: 100%;
+    transition: .3s;
+    background: transparent;
+    backdrop-filter: blur(15px);
+}
+
+header.ativo {
+    background-color: #5445a7b7;
+    border-bottom: 1px solid #bd85fc48;
+}
+
+#home {
+    display: inline-flex;
+    padding: 20px 0px;
+    transform: translate(50%);
+    width: 50%;
 }
 
 #home a {
@@ -57,6 +64,7 @@ thead {
 
 #inicio {
     text-align: center;
+    padding-top: 50px;
 }
 
 #inicio h1 {
@@ -131,5 +139,11 @@ thead {
 
 #sobre #sobre-mim h1 {
     font-size: 50px;
+    padding-top: 20px;
+}
+
+#sobre #sobre-mim #sobre-mim-describe {
+    color: gray;
+    font-size: 20px;
     padding-top: 20px;
 }
