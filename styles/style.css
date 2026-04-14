@@ -18,6 +18,7 @@ body {
     background-image: linear-gradient(to right, #130D1E, #34154E);
     color: white;
     position: relative;
+    max-width: 96%;
 }
 
 .button {
@@ -167,7 +168,7 @@ header.ativo {
     box-shadow: 0px 0px 30px #5445a76c;
     display: inline-block;
     height: fit-content;
-    margin: auto 50px auto 20px;
+    margin: auto 50px;
 }
 
 #quem-sou-eu #minha-imagem img {
@@ -176,7 +177,8 @@ header.ativo {
 }
 
 #quem-sou-eu #minha-descricao {
-    padding: 0px 70px;
+    padding-left: 40px;
+
 }
 
 #quem-sou-eu #descricao-texto h2 {
@@ -207,17 +209,51 @@ header.ativo {
     height: 30px;
     align-items: center;
     padding: 30px 5px;
+    margin: 0px;
+    width: 20vw;
+}
+
+#quem-sou-eu #informacoes .button:hover {
+    background-color: #280d42;
+    transition: .5s;
 }
 
 #quem-sou-eu #informacoes .button img {
-    
     width: 30px;
     height: 30px;
-
 }
 
-#quem-sou-eu #informacoes #info-img {
-    background-color: #5445a77c;
-    border-radius: 10px;
+#quem-sou-eu #informacoes .info-img {
+    background-color: #5445a744;
+    border-radius: 15px;
+    margin: 0px 10px;
+    padding: 8px;
 }
 
+#quem-sou-eu #informacoes #info-descricao p {
+    font-size: 6vw;
+}
+
+#quem-sou-eu #hard-skills {
+    padding-top: 30px;
+}
+
+#quem-sou-eu #hard-skills h3 {
+    padding: 20px 0px;
+}
+
+#quem-sou-eu #hard-skills p {
+    margin: 10px 0px;
+}
+
+#quem-sou-eu #hard-skills .button {
+    display: inline-flex;
+    margin: 0px;
+}
+
+#projetos {
+    padding-top: 40px;
+    text-align: center;
+    display: inline-block
+    
+}
