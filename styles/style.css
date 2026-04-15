@@ -406,3 +406,81 @@ header.ativo {
     padding-right: 15px;
     padding-left: -5px;
 }
+
+#contato {
+    display: block;
+    text-align: center;
+    padding: 80px 0px 50px 0px;
+}
+
+#contato #contato-titulo {
+    margin: 30px 0px;
+    display: inline-flex;
+    align-items: center;
+}
+
+#contato #contato-titulo i {
+    padding-right: 8px;
+}
+
+#contato #descricao-contato h2 {
+    font-size: 4em;
+}
+
+#contato #descricao-contato p {
+    padding: 20px 0px;
+}
+
+#contato #contato-info h3 {
+    font-size: 1.7em;
+    padding: 10px 0px;
+}
+
+#contato #contato-info p {
+    max-width: 500px;
+    margin: auto;
+    letter-spacing: 0px;
+    padding-bottom: 30px;
+}
+
+#contato #contato-dados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+}
+
+
+#contato #contato-dados .button {
+    background-color: #1E0A32;
+    border: 1px solid #bd85fc41;
+    border-radius: 10px;
+    display: inline-flex;
+    width: 300px;
+    height: 80px;
+    align-items: center;
+    text-align: left;
+}
+
+#contato #contato-dados img {
+    background-color: #5445a765;
+    border-radius: 12px;
+    padding: 12px;
+    width: 30px;
+    height: 30px;
+    margin-left: -10px;
+}
+
+#contato #contato-dados .bit {
+    color: rgb(170, 170, 170);
+    font-size: 0.8em;
+}
+
+#contato #contato-dados .button-info p {
+    padding: 6px 30px;
+    font-weight: bolder;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, #130D1E, #34154E);
+    height: 200px;
+}
