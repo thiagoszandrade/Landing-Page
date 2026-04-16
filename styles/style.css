@@ -534,6 +534,7 @@ footer {
     background-color: #461775;
     border: 1px solid #bd85fc41;
     box-shadow: 0px 3px 10px #4617758e;
+    transition: .5s;
 }
 
 #foot2 .button i {
