@@ -342,7 +342,7 @@ header.ativo {
 }
 
 #projetos .card-conteudo {
-    background-color: #200A35;
+    background-color: rgb(var(--cor1), 0.7);
     border-radius: 0px 0px 20px 20px;
     height: 8vw;
     text-align: left;
@@ -472,8 +472,12 @@ header.ativo {
     text-align: left;
 }
 
+#contato #contato-dados .button:hover {
+    background-color: rgb(var(--cor2), 0.3);
+}
+
 #contato #contato-dados img {
-    background-color: #5445a765;
+    background-color: rgb(var(--cor4), 0.5);
     border-radius: 12px;
     padding: 0.8vw;
     width: 2vw;
@@ -502,7 +506,7 @@ footer {
 }
 
 #footer1 {
-    border-bottom: 1px solid #461775;
+    border-bottom: 1px solid rgb(var(--cor4), 0.5);
     display: inline-flex;
     padding: 0px 0px 2.5vw 0px;
     width: 100%;
